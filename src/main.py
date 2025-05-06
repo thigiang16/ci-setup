@@ -7,5 +7,6 @@ def mul(a, b):
 def poweroftwo(a):
     return a * a
 
+"""new function"""
 def squareroot(a):
     return a ** 0.5

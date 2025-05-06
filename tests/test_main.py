@@ -14,6 +14,7 @@ class TestMain(unittest.TestCase):
     def test_poweroftwo(self):
         self.assertEqual(poweroftwo(6), 36)
 
+    """new test"""
     def test_squareroot(self):
         self.assertEqual(squareroot(25), 5)
 

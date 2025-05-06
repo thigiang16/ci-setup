@@ -1,5 +1,5 @@
 import unittest
-from src.main import add, subtract, mul, poweroftwo
+from src.main import add, subtract, mul, poweroftwo, squareroot.
 
 class TestMain(unittest.TestCase):
     def test_add(self):
@@ -13,6 +13,9 @@ class TestMain(unittest.TestCase):
 
     def test_poweroftwo(self):
         self.assertEqual(poweroftwo(6), 36)
+
+    def test_squareroot(self)
+        self.assertEqual(squareroot(25), 5)
 
 if __name__ == '__main__':
     unittest.main()

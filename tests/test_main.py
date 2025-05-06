@@ -1,5 +1,5 @@
 import unittest
-from src.main import add, subtract, mul, poweroftwo, squareroot.
+from src.main import add, subtract, mul, poweroftwo, squareroot
 
 class TestMain(unittest.TestCase):
     def test_add(self):
